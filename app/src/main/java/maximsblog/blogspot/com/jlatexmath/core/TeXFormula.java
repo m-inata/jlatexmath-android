@@ -157,6 +157,19 @@ public class TeXFormula {
 							.forName(
 									"maximsblog.blogspot.com.jlatexmath.greek.GreekRegistration")
 							.newInstance());
+
+			DefaultTeXFont
+					.registerAlphabet((AlphabetRegistration) Class
+							.forName(
+									"maximsblog.blogspot.com.jlatexmath.cjk.HiraganaRegistration")
+							.newInstance());
+
+			DefaultTeXFont
+					.registerAlphabet((AlphabetRegistration) Class
+							.forName(
+									"maximsblog.blogspot.com.jlatexmath.cjk.KatakanaRegistration")
+							.newInstance());
+
 		} catch (Exception e) {
 		}
 

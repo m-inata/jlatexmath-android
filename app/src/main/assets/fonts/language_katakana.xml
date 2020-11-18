@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+
+<TeXFont>
+
+  <SymbolMappings>
+    <Mapping include="fonts/jlm_notosanscjkjp_katakana.map.xml" />
+  </SymbolMappings>
+
+  <FontDescriptions>
+    <Metrics include="fonts/notosanscjkjp_katakana.xml" />
+  </FontDescriptions>
+
+  <TeXSymbols include="fonts/symbols_katakana.xml" />
+
+  <FormulaSettings include="fonts/mappings_katakana.xml" />
+
+</TeXFont>

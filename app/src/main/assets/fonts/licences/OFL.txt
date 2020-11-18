@@ -1,3 +1,6 @@
+Noto is a trademark of Google Inc. Noto fonts are open source. All Noto fonts are published under the SIL Open Font License, Version 1.1. Language data and some sample texts are from the Unicode CLDR project.
+
+
 Copyright (c) 1997, 2009, American Mathematical Society (http://www.ams.org).
 All Rights Reserved.
 

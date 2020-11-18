@@ -74,8 +74,10 @@ public class ExampleFormula {
 	+ "\\end{array}";
 	
 	private static String mExample7 = "\\mbox{abc abc abc abc abc abc abc abc abc abc abc abc abc abc\\\\abc abc abc abc abc abc abc\\\\abc abc abc abc abc abc abc}\\\\1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1";
-	
-	private static String[] mFormulaArray = new String[] {"About", mExample1,mExample2,mExample3,mExample4,mExample5,mExample6,mExample7};
+
+	private static String mExample8 = "あいうえおアイウエオ";
+
+	private static String[] mFormulaArray = new String[] {"About", mExample1,mExample2,mExample3,mExample4,mExample5,mExample6,mExample7,mExample8};
 	
 	public static String[] getFormulaArray(){
 		return mFormulaArray;

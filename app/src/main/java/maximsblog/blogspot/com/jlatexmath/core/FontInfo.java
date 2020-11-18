@@ -117,7 +117,8 @@ public class FontInfo {
 		int num = NUMBER_OF_CHAR_CODES;
 		if (unicode != 0) {
 			this.unicode = new HashMap<Character, Character>(unicode);
-			num = unicode;
+//			num = unicode;
+			num = 32768;  //2020-10-15 @m-inata Because size of CJKUnifiedIdeographs is 0x5200(from 4E00 to 9fff). 2^14 < 0x5200 < 2^15 = 32768.
 		}
 		metrics = new float[num][];
 		nextLarger = new CharFont[num];
