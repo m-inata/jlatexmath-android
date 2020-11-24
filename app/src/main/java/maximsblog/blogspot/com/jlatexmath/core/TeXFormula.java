@@ -170,6 +170,10 @@ public class TeXFormula {
 									"maximsblog.blogspot.com.jlatexmath.cjk.KatakanaRegistration")
 							.newInstance());
 
+			DefaultTeXFont
+					.registerAlphabet((AlphabetRegistration) Class
+							.forName("maximsblog.blogspot.com.jlatexmath.cjk.HalfwidthAndFullwidthFormsRegistration")
+							.newInstance());
 		} catch (Exception e) {
 		}
 

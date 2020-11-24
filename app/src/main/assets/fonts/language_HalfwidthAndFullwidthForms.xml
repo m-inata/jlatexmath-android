@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+
+<TeXFont>
+
+  <SymbolMappings>
+    <Mapping include="fonts/jlm_notosanscjkjp_HalfwidthAndFullwidthForms.map.xml" />
+  </SymbolMappings>
+
+  <FontDescriptions>
+    <Metrics include="fonts/notosanscjkjp_HalfwidthAndFullwidthForms.xml" />
+  </FontDescriptions>
+
+  <TeXSymbols include="fonts/symbols_HalfwidthAndFullwidthForms.xml" />
+
+  <FormulaSettings include="fonts/mappings_HalfwidthAndFullwidthForms.xml" />
+
+</TeXFont>
