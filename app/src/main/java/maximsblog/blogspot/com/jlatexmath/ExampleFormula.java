@@ -75,7 +75,7 @@ public class ExampleFormula {
 	
 	private static String mExample7 = "\\mbox{abc abc abc abc abc abc abc abc abc abc abc abc abc abc\\\\abc abc abc abc abc abc abc\\\\abc abc abc abc abc abc abc}\\\\1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1";
 
-	private static String mExample8 = "あいうえおアイウエオ";
+	private static String mExample8 = "あいうえお\\\\ｱｲｳｴｵ\\\\一丁丂\u9fc4";
 
 	private static String[] mFormulaArray = new String[] {"About", mExample1,mExample2,mExample3,mExample4,mExample5,mExample6,mExample7,mExample8};
 	

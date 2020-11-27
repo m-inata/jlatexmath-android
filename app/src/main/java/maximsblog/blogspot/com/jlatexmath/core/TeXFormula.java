@@ -174,6 +174,12 @@ public class TeXFormula {
 					.registerAlphabet((AlphabetRegistration) Class
 							.forName("maximsblog.blogspot.com.jlatexmath.cjk.HalfwidthAndFullwidthFormsRegistration")
 							.newInstance());
+
+			DefaultTeXFont
+					.registerAlphabet((AlphabetRegistration) Class
+							.forName("maximsblog.blogspot.com.jlatexmath.cjk.CJKUnifiedIdeographsRegistration")
+							.newInstance());
+
 		} catch (Exception e) {
 		}
 
