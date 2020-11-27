@@ -180,6 +180,11 @@ public class TeXFormula {
 							.forName("maximsblog.blogspot.com.jlatexmath.cjk.CJKUnifiedIdeographsRegistration")
 							.newInstance());
 
+			DefaultTeXFont
+					.registerAlphabet((AlphabetRegistration) Class
+							.forName("maximsblog.blogspot.com.jlatexmath.cjk.CJKSymbolsAndPunctuationRegistration")
+							.newInstance());
+
 		} catch (Exception e) {
 		}
 
